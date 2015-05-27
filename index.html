@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <title>Rongkai He</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/texgyreheros/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+  <div class="app" ng-controller="MainController">
+    
+    <div id="wrapper" class="container">
+      <div class="nav">
+      About/ Contact/ {{ data.title }}
+      </div>
+      
+      <div class="row project" style="padding-top:25px" ng-repeat="project in data.projects | orderBy:'id' | reverse">
+        <div class="col-md-4 col-sm-12 caption">
+          <div class="caption">
+            {{ project.title }}
+            /
+            {{ project.year }}
+            <br><br>
+            <p class="project-desc">
+            {{ project.desc }}
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4 col-sm-6 col-main-img">
+          <img class="main-img" style="width:100%;" ng-src="content/projects/{{ project.slug }}/{{ project.slug }}_1_s.jpg"></img>
+        </div>
+        <div class="col-xs-12 col-md-4 col-sm-6 col-additional-img">
+          <img class="additional-img" style="width:100%;" ng-src="content/projects/{{ project.slug }}/{{ project.slug }}_2_s.jpg"></img>
+        </div>
+      </div>
+      
+    </div>
+  
+  </div>
+  
+  <!-- Modules -->
+  <script src="app/app.js"></script>
+
+  <!-- Controllers -->
+  <script src="app/MainController.js"></script>
+  
+</body>
+</html>

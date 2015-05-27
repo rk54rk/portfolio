@@ -1,0 +1,29 @@
+{
+  "title": "Rongkai He",
+  "desc": "Rongkai He as a graphic designer.",
+  
+  "about": {
+    "title": "About",
+    "desc": "This is the about page. Welcome"
+  },
+  "contact": {
+    "title": "Contact",
+    "desc": "This is the contact page. Welcome"
+  },
+  "projects": [
+    {
+      "id":"1",
+      "title": "Coin Book",
+      "slug": "coin-book",
+      "year": "2012",
+      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. While by making this Table Lamp with a standing laptop, I am trying to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp."
+    },
+    {
+      "id":"2",
+      "title": "Table Lamp",
+      "slug": "table-lamp",
+      "year": "2015",
+      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. While by making this Table Lamp with a standing laptop, I am trying to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp."
+    }
+  ]
+}

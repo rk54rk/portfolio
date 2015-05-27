@@ -1,0 +1,3 @@
+Image optimization
+L 1500 x 1000, RGB no profile file, quality 9
+S 750 x 500, RGB no profile file, quality 9
