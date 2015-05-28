@@ -8,17 +8,19 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 <body>
   <div class="app" ng-controller="MainController">
     
     <div id="wrapper" class="container">
       <div class="nav">
-      About/ Contact/ {{ data.title }}
+      <a href="{{home_url}}">{{ data.title }}</a>/
+      <a href="" role="button" class="" data-toggle="modal" data-target="#modal-about">About</a>
       </div>
       
-      <div class="row project" style="padding-top:25px" ng-repeat="project in data.projects | orderBy:'id' | reverse">
-        <div class="col-md-4 col-sm-12 caption">
+      <div class="row project" ng-repeat="project in data.projects | orderBy:'id':true">
+        <div class="col-md-4 col-sm-12 col-caption">
           <div class="caption">
             {{ project.title }}
             /
@@ -30,7 +32,9 @@
           </div>
         </div>
         <div class="col-xs-12 col-md-4 col-sm-6 col-main-img">
-          <img class="main-img" style="width:100%;" ng-src="content/projects/{{ project.slug }}/{{ project.slug }}_1_s.jpg"></img>
+          <a href="" role="button" class="" data-toggle="modal" data-target="#modal-image" data-image="content/projects/{{ project.slug }}/{{ project.slug }}_1_l.jpg">
+            <img class="main-img" style="width:100%;" ng-src="content/projects/{{ project.slug }}/{{ project.slug }}_1_s.jpg"></img>
+          </a>
         </div>
         <div class="col-xs-12 col-md-4 col-sm-6 col-additional-img">
           <img class="additional-img" style="width:100%;" ng-src="content/projects/{{ project.slug }}/{{ project.slug }}_2_s.jpg"></img>
@@ -40,7 +44,41 @@
     </div>
   
   </div>
-  
+
+  <!-- Modal: about -->
+  <div class="modal fade" id="modal-about" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                Rongkai He
+              </div>
+              <div class="col-md-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: image -->
+  <div class="modal fade" id="modal-image" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="big-img"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Includes -->
+  <script src="scripts.js"></script>
+
   <!-- Modules -->
   <script src="app/app.js"></script>
 

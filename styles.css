@@ -2,9 +2,33 @@ html, body{font-family:texgyreherosregular;height:100%;width:100%;margin:0;font-
 
 #wrapper{padding-top:20px}
 
-.project-desc{display:none}
-.caption:hover .project-desc{display:block;}
+.nav{margin-bottom:100px;}
 
+.project{margin-bottom:50px}
+.project-desc{max-height:0px;overflow:hidden;transition: max-height 0.5s;}
+.project:hover .project-desc{max-height:300px;}
+
+.modal-backdrop{background-color:transparent;}
+.modal-body{padding:0;}
+
+#modal-about .modal-dialog{margin:0;width:100vw;}
+#modal-about .modal-content{border-radius:0;border:none;}
+#modal-about .modal-content{box-shadow:0 5px 15px aquamarine;padding:20px 17px 50px 0!important}
+
+#modal-image .modal-dialog{margin:0;pointer-events:none;}
+#modal-image .modal-content{box-shadow:none;border:none;}
+#modal-image .modal-content .big-img{height:100vh;width:100vw;background-position: center;background-size:cover;}
+
+#modal-image.fade:not(.in) .modal-dialog {
+    -webkit-transform:none;
+    transform:none;
+}
+
+.big-img{height:100%;width:100%}
+
+a{color:#000;}
+a:hover, a:focus{color:#000;text-decoration:none;outline:none;}
+a:hover{border-bottom:1px solid #000;}
 
 @media (max-width: 641px){
 }
