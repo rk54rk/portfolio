@@ -10,13 +10,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
-<body>
-  <div class="app" ng-controller="MainController">
+<body ng-controller="MainController">
+  <div class="app">
     
     <div id="wrapper" class="container">
       <div class="nav">
-      <a href="{{home_url}}">{{ data.title }}</a>/
-      <a href="" role="button" class="" data-toggle="modal" data-target="#modal-about">About</a>
+      <a href="{{home_url}}">{{ data.title }}</a> /
+      <a href="" role="button" class="" data-toggle="modal" data-target="#modal-about">{{ data.about.title }}</a>
       </div>
       
       <div class="row project" ng-repeat="project in data.projects | orderBy:'id':true">
@@ -31,13 +31,26 @@
             </p>
           </div>
         </div>
-        <div class="col-xs-12 col-md-4 col-sm-6 col-main-img">
-          <a href="" role="button" class="" data-toggle="modal" data-target="#modal-image" data-image="content/projects/{{ project.slug }}/{{ project.slug }}_1_l.jpg">
-            <img class="main-img" style="width:100%;" ng-src="content/projects/{{ project.slug }}/{{ project.slug }}_1_s.jpg"></img>
-          </a>
+        <div ng-if="project.image > 0" >
+          <div class="col-xs-12 col-md-4 col-sm-6 col-main-img">
+            <a href="" role="button" class="" data-toggle="modal" data-target="#modal-image" data-project="{{ project.slug }}" data-imageid="1">
+              <img class="main-img" style="width:100%;" ng-src="content/projects/{{ project.slug }}/{{ project.slug }}_1_s.jpg"></img>
+            </a>
+          </div>
         </div>
-        <div class="col-xs-12 col-md-4 col-sm-6 col-additional-img">
-          <img class="additional-img" style="width:100%;" ng-src="content/projects/{{ project.slug }}/{{ project.slug }}_2_s.jpg"></img>
+        <div ng-if="project.image == 2" >
+          <div class="col-xs-12 col-md-4 col-sm-6 col-additional-img">
+            <a href="" role="button" class="" data-toggle="modal" data-target="#modal-image" data-project="{{ project.slug }}" data-imageid="2">
+              <img class="main-img" style="width:100%;" ng-src="content/projects/{{ project.slug }}/{{ project.slug }}_2_s.jpg"></img>
+            </a>
+          </div>
+        </div>
+        <div ng-if="project.image > 2">
+          <div class="col-xs-12 col-md-4 col-sm-6 col-additional-img">
+            <a href="" role="button" class="" data-toggle="modal" data-target="#modal-image" data-project="{{ project.slug }}" data-imageid="2">
+              <img class="main-img" style="width:100%;" ng-src="content/projects/{{ project.slug }}/{{ project.slug }}_2_s.jpg"></img>
+            </a>
+          </div>
         </div>
       </div>
       
@@ -53,10 +66,10 @@
           <div class="container">
             <div class="row">
               <div class="col-md-4">
-                Rongkai He
+                <pre style=>{{ data.about.contact }}</pre>
               </div>
               <div class="col-md-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                {{ data.about.desc }}
               </div>
             </div>
           </div>

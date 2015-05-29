@@ -4,7 +4,8 @@
   
   "about": {
     "title": "About",
-    "desc": "This is the about page. Welcome"
+    "contact": "Rongkai He\nrongkai@herongkai.com\n+44 (0)78 6308 9709",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   "contact": {
     "title": "Contact",
@@ -16,14 +17,16 @@
       "title": "Coin Book",
       "slug": "coin-book",
       "year": "2012",
-      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp."
+      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
+      "image": "1"
     },
     {
       "id":"2",
       "title": "Table Lamp",
       "slug": "table-lamp",
       "year": "2015",
-      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp."
+      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
+      "image": "2"
     }
   ]
 }
