@@ -22,11 +22,43 @@
     },
     {
       "id":"2",
+      "title": "The Graphic Design Reader",
+      "slug": "tgdr",
+      "year": "2013",
+      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
+      "image": "1"
+    },
+    {
+      "id":"3",
+      "title": "Yan Fu",
+      "slug": "yan-fu",
+      "year": "2014",
+      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
+      "image": "1"
+    },
+    {
+      "id":"4",
+      "title": "Clay Cargo",
+      "slug": "clay-cargo",
+      "year": "2014",
+      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
+      "image": "5"
+    },
+    {
+      "id":"5",
       "title": "Table Lamp",
       "slug": "table-lamp",
       "year": "2015",
       "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
-      "image": "2"
+      "image": "3"
+    },
+    {
+      "id":"6",
+      "title": "Unlimited Limited",
+      "slug": "unlimited-limited",
+      "year": "2015",
+      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
+      "image": "1"
     }
   ]
 }

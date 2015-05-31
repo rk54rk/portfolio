@@ -4,26 +4,28 @@ html, body{font-family:texgyreherosregular;height:100%;width:100%;margin:0;font-
 
 .nav{margin-bottom:100px;}
 
-.project{margin-bottom:50px}
+.project{margin-bottom:60px}
 .project-desc{max-height:0px;overflow:hidden;transition: max-height 0.5s;}
-.project:hover .project-desc{max-height:300px;}
+.caption:hover .project-desc{max-height:300px;}
 
 .modal-backdrop{background-color:darkblue}
 .modal-body{padding:0;}
+.modal-dialog{width:inherit}
 
 #modal-about .modal-dialog{margin:0;width:100vw;}
-#modal-about .modal-content{border-radius:0;border:none;box-shadow:0 0 15px aqua;padding:20px 17px 50px 0!important}
+#modal-about .modal-content{border-radius:0;border:none;padding:20px 17px 50px 0!important}
 
 #modal-image .modal-dialog{margin:0;pointer-events:none;}
 #modal-image .modal-content{box-shadow:none;border:none;background-color:transparent;}
-#modal-image .modal-content .big-img{height:100vh;width:100vw;background-position: center;background-size:contain;background-repeat: no-repeat;}
 
-#modal-image.fade:not(.in) .modal-dialog {
-    -webkit-transform:none;
-    transform:none;
-}
+#modal-image.fade:not(.in) .modal-dialog {-webkit-transform:none;transform:none;}
 
-.big-img{height:100%;width:100%;box-shadow:0 0 15px aqua}
+.bigimg{height:100vh;width:100vw;background-position: center;background-size:contain;background-repeat: no-repeat;}
+.bigimg-select{pointer-events: all;height:100%;position:absolute;top:0;width:20%;}
+.bigimg-arrow{display:inline;font-size:48px;top:47%;position:absolute}
+.bigimg-select:hover .bigimg-arrow{color:white;}
+
+.shadow {box-shadow:0 0 15px white;}
 
 a{color:#000;}
 a:hover, a:focus{color:#000;text-decoration:none;outline:none;}
