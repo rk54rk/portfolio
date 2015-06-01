@@ -4,7 +4,7 @@ html, body{font-family:texgyreherosregular;height:100%;width:100%;margin:0;font-
 
 .project{margin-bottom:60px}
 .caption{min-height:150px;cursor:url("assets/img/cursor.png"), auto;}
-.project-desc{max-height:0px;overflow:hidden;transition: max-height 0.5s;}
+.project-desc{margin-top:30px;max-height:0px;overflow:hidden;transition: max-height 0.5s;}
 .caption:hover .project-desc{max-height:300px;}
 .col-small-gutter {padding-left:15px;padding-right:0px;}
 
@@ -29,6 +29,7 @@ html, body{font-family:texgyreherosregular;height:100%;width:100%;margin:0;font-
 .main-img{width:100%;}
 
 .shadow {box-shadow:0 0 15px white;}
+.noselect {-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
 
 a{color:#000;}
 a:hover, a:focus{color:#000;text-decoration:none;outline:none;}
@@ -37,8 +38,12 @@ a.bigimg-toggle:hover{border-bottom:none;}
 
 pre{padding:inherit;margin:inherit;font-size:inherit;line-height: inherit;color: inherit;word-break: normal;word-wrap: normal;background-color: inherit;border:none;border-radius:0; font-family: inherit}
 
-@media (max-width: 641px){
+@media (max-width: 991px){
+  .caption{min-height:0px;}
+  .project-desc{margin-top:0px;}
+  .project{margin-right:0px}
 }
 
-@media (max-width: 415px){
+@media (max-width: 767px){
+  .col-additional-img{padding-top:15px}
 }
