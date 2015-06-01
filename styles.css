@@ -1,12 +1,12 @@
 html, body{font-family:texgyreherosregular;height:100%;width:100%;margin:0;font-size:16px;line-height:24px;color:rgba(0,0,0,1.00);}
 
-#wrapper{padding-top:20px}
-
-.nav{margin-bottom:100px;}
+.nav{padding-top:20px;margin-bottom:100px;}
 
 .project{margin-bottom:60px}
+.caption{min-height:150px;cursor:url("assets/img/cursor.png"), auto;}
 .project-desc{max-height:0px;overflow:hidden;transition: max-height 0.5s;}
 .caption:hover .project-desc{max-height:300px;}
+.col-small-gutter {padding-left:15px;padding-right:0px;}
 
 .modal-backdrop{background-color:darkblue}
 .modal-body{padding:0;}
@@ -26,11 +26,14 @@ html, body{font-family:texgyreherosregular;height:100%;width:100%;margin:0;font-
 .bigimg-arrow{padding:10px;display:inline;font-size:48px;top:47%;position:absolute}
 .bigimg-select:hover .bigimg-arrow{color:white;}
 
+.main-img{width:100%;}
+
 .shadow {box-shadow:0 0 15px white;}
 
 a{color:#000;}
 a:hover, a:focus{color:#000;text-decoration:none;outline:none;}
 a:hover{border-bottom:1px solid #000;}
+a.bigimg-toggle:hover{border-bottom:none;}
 
 pre{padding:inherit;margin:inherit;font-size:inherit;line-height: inherit;color: inherit;word-break: normal;word-wrap: normal;background-color: inherit;border:none;border-radius:0; font-family: inherit}
 
