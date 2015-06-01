@@ -22,7 +22,7 @@ html, body{font-family:texgyreherosregular;height:100%;width:100%;margin:0;font-
 
 .bigimg{height:100vh;width:100vw;background-position: center;background-size:contain;background-repeat: no-repeat;}
 .bigimg-select{pointer-events: all;height:100%;position:absolute;top:0;width:20%;}
-.bigimg-arrow{display:inline;font-size:48px;top:47%;position:absolute}
+.bigimg-arrow{padding:10px;display:inline;font-size:48px;top:47%;position:absolute}
 .bigimg-select:hover .bigimg-arrow{color:white;}
 
 .shadow {box-shadow:0 0 15px white;}
