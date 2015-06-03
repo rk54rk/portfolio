@@ -34,32 +34,32 @@
           <div ng-if="project.imagecount > 0" >
             <div class="col-xs-12 col-md-4 col-sm-6 col-small-gutter col-main-img">
               <a class="bigimg-toggle" href="" role="button" class="" data-toggle="modal" data-target="#modal-image" data-project="{{ project.slug }}" data-imageid="1" data-imagecount="{{project.imagecount}}"> 
-                <img class="main-img lazy" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_1_s.jpg"></img>
+                <img class="main-img lazy" src="assets/img/placeholder.png" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_1_s.jpg"></img>
               </a>
             </div>
           </div>
           <div ng-if="project.imagecount == 2" >
             <div class="col-xs-12 col-md-4 col-sm-6 col-small-gutter col-additional-img">
               <a class="bigimg-toggle" href="" role="button" class="" data-toggle="modal" data-target="#modal-image" data-project="{{ project.slug }}" data-imageid="2" data-imagecount="{{project.imagecount}}">
-                <img class="main-img lazy" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_2_s.jpg"></img>
+                <img class="main-img lazy" src="assets/img/placeholder.png" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_2_s.jpg"></img>
               </a>
             </div>
           </div>
           <div ng-if="project.imagecount > 2">
             <div class="col-xs-6 col-sm-3 col-md-2 col-small-gutter col-additional-img">
               <a class="bigimg-toggle" href="" role="button" class="img-button" data-toggle="modal" data-target="#modal-image" data-project="{{ project.slug }}" data-imageid="2" data-imagecount="{{project.imagecount}}">
-                    <img class="main-img lazy" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_2_s.jpg"></img>
+                    <img class="main-img lazy" src="assets/img/placeholder.png" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_2_s.jpg"></img>
               </a>
               <a class="bigimg-toggle" ng-if="project.imagecount > 3" href="" role="button" style="img-button" data-toggle="modal" data-target="#modal-image" data-project="{{ project.slug }}" data-imageid="4" data-imagecount="{{project.imagecount}}">
-                    <img class="main-img lazy" style="margin-top:15px;" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_4_s.jpg"></img>
+                    <img class="main-img lazy" src="assets/img/placeholder.png" style="margin-top:15px;" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_4_s.jpg"></img>
               </a>
             </div>
             <div class="col-xs-6 col-sm-3 col-md-2 col-small-gutter col-additional-img">
               <a class="bigimg-toggle" href="" role="button" class="img-button" data-toggle="modal" data-target="#modal-image" data-project="{{ project.slug }}" data-imageid="3" data-imagecount="{{project.imagecount}}">
-                    <img class="main-img lazy" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_3_s.jpg"></img>
+                    <img class="main-img lazy" src="assets/img/placeholder.png" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_3_s.jpg"></img>
               </a>
               <a class="bigimg-toggle" ng-if="project.imagecount > 4" href="" role="button" class="img-button" data-toggle="modal" data-target="#modal-image" data-project="{{ project.slug }}" data-imageid="5" data-imagecount="{{project.imagecount}}">
-                    <img class="main-img lazy" style="margin-top:15px;" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_5_s.jpg"></img>
+                    <img class="main-img lazy" src="assets/img/placeholder.png" style="margin-top:15px;" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_5_s.jpg"></img>
               </a>
             </div>
           </div>
@@ -96,6 +96,7 @@
             <div id="bigimg-next" style="display:none;"></div>
             <div id="bigimg-prev" style="display:none;"></div>
             <div id="bigimg"></div>
+            <div id="bigimg-page"><span id="bigimg-page-current"></span>/<span id="bigimg-page-total"></span></div>
             <div id="bigimg-control">
               <div role="button" id="bigimg-select-prev" onclick="changeImg('#bigimg-select-prev')" class="bigimg-select" data-project="" data-imageid="" data-imagecount="">
                 <div class="bigimg-arrow"><</div>

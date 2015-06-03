@@ -30,6 +30,8 @@ function changeImg(from_elem){
   $(document).find('#bigimg-select-next').data('imageid', imageid + 1);
   $(document).find('#bigimg-select-prev').data('imagecount', imagecount);
   $(document).find('#bigimg-select-next').data('imagecount', imagecount);
+  $(document).find('#bigimg-page-current').html(imageid);
+  $(document).find('#bigimg-page-total').html(imagecount);
   
   if ($(document).find('#bigimg-select-prev').data('imageid') < 1){
     $("#bigimg-select-prev").css("display", "none");

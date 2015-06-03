@@ -1,5 +1,5 @@
 app.controller('MainController', ['$scope', '$http', '$timeout', '$sce', function($scope, $http, $timeout, $sce) { 
-  $http.get('../content/index.json').success(function(data) {
+  $http.get('content/index.json').success(function(data) {
     $scope.data = data;
     $scope.current = "";
     document.title = data.title;

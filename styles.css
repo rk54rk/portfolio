@@ -27,6 +27,7 @@ b{font-weight: bold;}
 .bigimg-select{pointer-events: all;height:100%;position:absolute;top:0;width:20%;}
 .bigimg-arrow{padding:10px;display:inline;font-size:48px;top:47%;position:absolute}
 .bigimg-select:hover .bigimg-arrow{color:white;}
+#bigimg-page{position:fixed;color:black;font-size:32px;padding:10px;pointer-events: none;width:100vw;height:100vh;text-align: right;}
 
 .main-img{width:100%;}
 
