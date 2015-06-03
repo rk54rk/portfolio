@@ -4,8 +4,8 @@
   
   "about": {
     "title": "About",
-    "contact": "Rongkai He\nrongkai@herongkai.com\n+44 (0)78 6308 9709\n\n",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "contact": "<b>Rongkai He</b><br><a href='mailto:rongkai@outlook.com'>rongkai@outlook.com</a><br>+44 (0)78 6308 9709<br><br>",
+    "desc": "Rongkai is a graphic designer currently based in London. He works on both print and digital projects. He is about to graduate from the Royal College of Art in August this year."
   },
   "contact": {
     "title": "Contact",
@@ -17,7 +17,7 @@
       "title": "Coin Book",
       "slug": "coin-book",
       "year": "2012",
-      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
+      "desc": "The coin book simplifies the flip coin process - anyone can get a result instantly once opening this tiny book.",
       "imagecount": "5"
     },
     {
@@ -25,7 +25,7 @@
       "title": "The Graphic Design Reader",
       "slug": "tgdr",
       "year": "2013",
-      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
+      "desc": "This is a proposal for the cover design competition held by Bloomsbury at the Royal College of Art in 2013. It won the second place in the competition. <b>The Graphic Design Reader</b> is a book on the history and theory of graphic design edited by Teal Triggs and Leslie Atzmon.",
       "imagecount": "1"
     },
     {
@@ -33,7 +33,7 @@
       "title": "Yan Fu",
       "slug": "yan-fu",
       "year": "2014",
-      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
+      "desc": "Exhibition and catalogue design for <b>Yan Fu, Chinese Imperial Students and the Royal Naval College</b>. This is a collaboration with Wang Xueling and Xia Yanfeng.",
       "imagecount": "1"
     },
     {
@@ -41,7 +41,7 @@
       "title": "Clay Cargo",
       "slug": "clay-cargo",
       "year": "2014",
-      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
+      "desc": "Exhibition and catalogue design for <b>Clay Cargo 2015: Digging Depper</b>. This project is a collaboration with <a href='http://franekwardynski.com/'>Franciszek Wardynski</a>.",
       "imagecount": "5"
     },
     {
@@ -49,7 +49,7 @@
       "title": "Table Lamp",
       "slug": "table-lamp",
       "year": "2015",
-      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
+      "desc": "The Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
       "imagecount": "3"
     },
     {
@@ -57,7 +57,7 @@
       "title": "Unlimited Limited",
       "slug": "unlimited-limited",
       "year": "2015",
-      "desc": "We are trying to put a chip into everything and make them smart - smart phones, smart watches, smart shoes, smart houses. This Table Lamp is an attempt to simplify the complexity of the technology to an extreme, to un-smart, make it stupid, demystify it, expose the everyday quality of technologies in the cosy glow of a table lamp.",
+      "desc": "Unlimited Limited is a venture communist corporation, or an austere capitalist commune. It is an experiment on the form of the business organization. Making revenue from advertisement, it then distribute its humble wealth and power equally to its shareholders, open for anyone to sign up, free of charge. <a href='http://unlimitedltd.co'><b>http://unlimitedltd.co</b></a>",
       "imagecount": "1"
     }
   ]

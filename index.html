@@ -15,19 +15,19 @@
   <div class="app">
     <div id="wrapper" class="container">
       <div class="nav" data-scroll-index="1">
-        <a href="{{home_url}}">{{ data.title }}</a> /
+        <span class="bold">{{ data.title }}</span> /
         <a href="" role="button" class="" data-toggle="modal" data-target="#modal-about">{{ data.about.title }}</a>
       </div>
       <div ng-repeat="project in data.projects | orderBy:'id':true">
         <div project id="project{{project.id}}" data-scroll-index="{{8 - project.id}}" class="row project">
           <div class="col-md-4 col-sm-12 col-caption">
             <div class="caption">
-              {{ project.title }}
+              <span class="bold">{{ project.title }}</span>
               /
               {{ project.year }}
               <br>
               <p class="project-desc">
-              {{ project.desc }}
+              <span ng-bind-html="project.desc"></span>
               </p>
             </div>
           </div>
@@ -76,10 +76,10 @@
           <div class="container">
             <div class="row">
               <div class="col-md-4">
-                <pre style=>{{ data.about.contact }}</pre>
+                <span ng-bind-html="data.about.contact"></span>
               </div>
               <div class="col-md-8">
-                {{ data.about.desc }}
+                <span ng-bind-html="data.about.desc"></span>
               </div>
             </div>
           </div>

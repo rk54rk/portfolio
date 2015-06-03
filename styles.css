@@ -1,4 +1,6 @@
-html, body{font-family:texgyreherosregular;height:100%;width:100%;margin:0;font-size:16px;line-height:24px;color:rgba(0,0,0,1.00);}
+html, body{font-family:"texgyreheros";font-weight: normal; height:100%;width:100%;margin:0;font-size:16px;line-height:24px;color:rgba(0,0,0,1.00);}
+.bold{font-weight: bold;}
+b{font-weight: bold;}
 
 .nav{padding-top:20px;margin-bottom:100px;}
 
