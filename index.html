@@ -19,7 +19,7 @@
         <a href="" role="button" class="" data-toggle="modal" data-target="#modal-about">{{ data.about.title }}</a>
       </div>
       <div ng-repeat="project in data.projects | orderBy:'id':true">
-        <div project id="project{{project.id}}" data-scroll-index="{{8 - project.id}}" class="row project">
+        <div project id="project{{project.id}}" data-scroll-index="{{totalProjects + 2 - project.id}}" class="row project">
           <div class="col-md-4 col-sm-12 col-caption">
             <div class="caption">
               <span class="bold">{{ project.title }}</span>
@@ -51,7 +51,7 @@
                     <img class="main-img lazy" src="assets/img/placeholder.png" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_2_s.jpg"></img>
               </a>
               <a class="bigimg-toggle" ng-if="project.imagecount > 3" href="" role="button" style="img-button" data-toggle="modal" data-target="#modal-image" data-project="{{ project.slug }}" data-imageid="4" data-imagecount="{{project.imagecount}}">
-                    <img class="main-img lazy" src="assets/img/placeholder.png" style="margin-top:15px;" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_4_s.jpg"></img>
+                    <img class="main-img lazy" src="assets/img/placeholder.png" style="margin-top:10px;" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_4_s.jpg"></img>
               </a>
             </div>
             <div class="col-xs-6 col-sm-3 col-md-2 col-small-gutter col-additional-img">
@@ -59,7 +59,7 @@
                     <img class="main-img lazy" src="assets/img/placeholder.png" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_3_s.jpg"></img>
               </a>
               <a class="bigimg-toggle" ng-if="project.imagecount > 4" href="" role="button" class="img-button" data-toggle="modal" data-target="#modal-image" data-project="{{ project.slug }}" data-imageid="5" data-imagecount="{{project.imagecount}}">
-                    <img class="main-img lazy" src="assets/img/placeholder.png" style="margin-top:15px;" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_5_s.jpg"></img>
+                    <img class="main-img lazy" src="assets/img/placeholder.png" style="margin-top:10px;" data-original="content/projects/{{ project.slug }}/{{ project.slug }}_5_s.jpg"></img>
               </a>
             </div>
           </div>

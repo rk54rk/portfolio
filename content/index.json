@@ -17,47 +17,63 @@
       "title": "Coin Book",
       "slug": "coin-book",
       "year": "2012",
-      "desc": "The coin book simplifies the flip coin process - anyone can get a result instantly once opening this tiny book.",
+      "desc": "The coin book simplifies the preocess of tossing a coin. Open this book and you will get an result immediately.",
       "imagecount": "5"
     },
     {
       "id":"2",
-      "title": "The Graphic Design Reader",
-      "slug": "tgdr",
-      "year": "2013",
-      "desc": "This is a proposal for the cover design competition held by Bloomsbury at the Royal College of Art in 2013. It won the second place in the competition. <b>The Graphic Design Reader</b> is a book on the history and theory of graphic design edited by Teal Triggs and Leslie Atzmon.",
-      "imagecount": "1"
+      "title": "Hanpin",
+      "slug": "hanpin",
+      "year": "2012",
+      "desc": "Book design for photographer <b>Hao-chun Liu</b>. An old entrepreneur retired from the business he once built. While under new economic climate his successor moved the business - Hanpin from Taiwan to Mainland China. His factory in Taiwan together with his old family home, is soon to be demolished.",
+      "imagecount": "5"
     },
     {
       "id":"3",
-      "title": "Yan Fu",
-      "slug": "yan-fu",
-      "year": "2014",
-      "desc": "Exhibition and catalogue design for <b>Yan Fu, Chinese Imperial Students and the Royal Naval College</b>. This is a collaboration with Wang Xueling and Xia Yanfeng.",
+      "title": "The Graphic Design Reader",
+      "slug": "tgdr",
+      "year": "2013",
+      "desc": "This is a proposal for the cover design competition held by Bloomsbury at the Royal College of Art in 2013. This design proposal celebrates the unsung heros of Graphic Design - InDesign hidden characters. <b>The Graphic Design Reader</b> is a book on the history and theory of graphic design edited by Teal Triggs and Leslie Atzmon.",
       "imagecount": "1"
     },
     {
       "id":"4",
-      "title": "Clay Cargo",
-      "slug": "clay-cargo",
+      "title": "Yan Fu",
+      "slug": "yan-fu",
       "year": "2014",
-      "desc": "Exhibition and catalogue design for <b>Clay Cargo 2015: Digging Depper</b>. This project is a collaboration with <a href='http://franekwardynski.com/'>Franciszek Wardynski</a>.",
-      "imagecount": "5"
+      "desc": "Exhibition and catalogue design for <b>Yan Fu, Chinese Imperial Students and the Royal Naval College</b>. This is a collaboration with <a href='http://xlxlxlxlxl.com/' target='_blank'><b>Wang Xueling</b></a> and <b>Xia Yanfeng</b>.",
+      "imagecount": "1"
     },
     {
       "id":"5",
-      "title": "Table Lamp",
-      "slug": "table-lamp",
-      "year": "2015",
-      "desc": "The Table Lamp is an attempt to simplify the complexity of technologies to an extreme, to un-smart, make stupid, demystify and expose the everyday quality of technologies in the cosy glow of a table lamp.",
-      "imagecount": "3"
+      "title": "Gemma Cairney website",
+      "slug": "gemma-website",
+      "year": "2014",
+      "desc": "Website design and built for British radio presenter Gemma Cairney. Working with illustrator <a href='http://mariainesgul.com/'><b>Maria Ines Gul</b></a>, we try to encompass different layout and elements in the design. <a href='http://gemmacairney.co.uk' target='_blank'><b>http://gemmacairney.co.uk</b></a>",
+      "imagecount": "5"
     },
     {
       "id":"6",
+      "title": "Clay Cargo",
+      "slug": "clay-cargo",
+      "year": "2014",
+      "desc": "Exhibition and catalogue design for <b>Clay Cargo 2015: Digging Depper</b>. This project is a collaboration with <a href='http://franekwardynski.com/' target='_blank'><b>Franciszek Wardynski</b></a>.",
+      "imagecount": "5"
+    },
+    {
+      "id":"7",
+      "title": "Table Lamp",
+      "slug": "table-lamp",
+      "year": "2015",
+      "desc": "The Table Lamp is an attempt to simplify the complexity of technologies to an extreme, to un-smart, make stupid, demystify and expose the everyday quality of technologies in the glow of a table lamp.",
+      "imagecount": "2"
+    },
+    {
+      "id":"8",
       "title": "Unlimited Limited",
       "slug": "unlimited-limited",
       "year": "2015",
-      "desc": "Unlimited Limited is a venture communist corporation, or an austere capitalist commune. It is an experiment on the form of the business organization. Making revenue from advertisement, it then distribute its humble wealth and power equally to its shareholders, open for anyone to sign up, free of charge. <a href='http://unlimitedltd.co'><b>http://unlimitedltd.co</b></a>",
+      "desc": "Unlimited Limited is a venture communist corporation, or an austere capitalist commune. It is an experiment on the form of the business organization. Making revenue from advertisement, it then distribute its humble wealth and power equally to its shareholders, open for anyone to sign up, free of charge. <a href='http://unlimitedltd.co' target='_blank'><b>http://unlimitedltd.co</b></a>",
       "imagecount": "1"
     }
   ]
