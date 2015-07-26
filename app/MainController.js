@@ -1,17 +1,57 @@
 app.controller('MainController', ['$scope', '$http', '$timeout', '$sce', function($scope, $http, $timeout, $sce) { 
   $http.get('content/index.json').success(function(data) {
-    $scope.data = data;
-    $scope.totalProjects = data.projects.length;
-    $scope.current = "";
-    document.title = data.title;
+
+    //detect and switch language
+    $scope.$watch('language', function() {
+      if ($scope.language == "zh-CN"){
+        $scope.languageSwitchText = "English";
+        $scope.data = data.zh;
+        loadData();
+      } else {
+        $scope.languageSwitchText = "中文";
+        $scope.data = data.en;
+        loadData();
+      }
+    });  
     
-    $scope.data.about.contact = $sce.trustAsHtml(data.about.contact);
-    $scope.data.about.desc = $sce.trustAsHtml(data.about.desc);
-    $scope.data.projects.forEach(function(project) {
-      project.desc = $sce.trustAsHtml(project.desc);
-    });
+    if ($scope.language == null){
+      $scope.language = navigator.language;
+    }
+    
+    if ($scope.language == "zh-CN"){
+      $scope.languageSwitchText = "English";
+    } else {
+      $scope.languageSwitchText = "中文";
+    }
+    
+    $scope.switchLanguage = function() {
+      console.log("switching to");
+      if ($scope.language == "en-GB"){
+        $scope.language = "zh-CN";
+        console.log($scope.language);
+        
+      } else {
+        $scope.language = "en-GB";
+        console.log($scope.language);
+      }
+    };
+    
+    
+    //set var
+    function loadData(){
+      $scope.totalProjects = $scope.data.projects.length;
+      $scope.current = "";
+      document.title = $scope.data.title;
+
+      $scope.data.about.contact = $sce.trustAsHtml($scope.data.about.contact);
+      $scope.data.about.desc = $sce.trustAsHtml($scope.data.about.desc);
+      $scope.data.projects.forEach(function(project) {
+        project.desc = $sce.trustAsHtml(project.desc);
+      });
+    }
   });
 }]);
+
 
 //define "project" directive, set height of .caption div to equal the row height
 app.directive("project", function($timeout) {

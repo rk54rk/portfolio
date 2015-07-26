@@ -1,80 +1,162 @@
 {
-  "title": "Rongkai He",
-  "desc": "Rongkai He as a graphic designer.",
-  
-  "about": {
-    "title": "About",
-    "contact": "<b>Rongkai He</b><br><a href='mailto:rongkai@outlook.com'>rongkai@outlook.com</a><br>+44 (0)78 6308 9709<br><br>",
-    "desc": "Rongkai is a graphic designer currently based in London. He works on both print and digital projects. He is about to graduate from the Royal College of Art in August this year."
+"en": {
+    "title": "Rongkai He",
+    "desc": "Rongkai He as a graphic designer.",
+
+    "about": {
+      "title": "About",
+      "contact": "<b>Rongkai He</b><br><a href='mailto:rongkai@outlook.com'>rongkai@outlook.com</a><br>+44 (0)78 6308 9709<br><br>",
+      "desc": "Rongkai is a graphic designer currently based in London, UK and Changsha, China. In 2009, He went to London College of Communication to study graphic design. After that he have been working for two years in the UK on large exhibition graphic design projects. He then studied Visual Communication in the Royal College of Art and graduated in 2015. Apart from graphic design for print, exhibition and digital, he is also working on self initiated cultural projects."
+    },
+    "contact": {
+      "title": "Contact",
+      "desc": "This is the contact page. Welcome"
+    },
+    "projects": [
+      {
+        "id":"1",
+        "title": "Coin Book",
+        "slug": "coin-book",
+        "year": "2012",
+        "desc": "The coin book simplifies the preocess of tossing a coin. Open this book and you will get an result immediately.",
+        "imagecount": "5"
+      },
+      {
+        "id":"2",
+        "title": "Hanpin",
+        "slug": "hanpin",
+        "year": "2012",
+        "desc": "Book design for photographer <b>Hao-chun Liu</b>. An old entrepreneur retired from the business he once built. While under new economic climate his successor moved the business - Hanpin from Taiwan to Mainland China. His factory in Taiwan together with his old family home, is soon to be demolished.",
+        "imagecount": "5"
+      },
+      {
+        "id":"3",
+        "title": "The Graphic Design Reader",
+        "slug": "tgdr",
+        "year": "2013",
+        "desc": "This is a proposal for the cover design competition held by Bloomsbury at the Royal College of Art in 2013. This design proposal celebrates the unsung heros of Graphic Design - InDesign hidden characters. <b>The Graphic Design Reader</b> is a book on the history and theory of graphic design edited by Teal Triggs and Leslie Atzmon.",
+        "imagecount": "1"
+      },
+      {
+        "id":"4",
+        "title": "Yan Fu",
+        "slug": "yan-fu",
+        "year": "2014",
+        "desc": "Exhibition and catalogue design for <b>Yan Fu, Chinese Imperial Students and the Royal Naval College</b>. This is a collaboration with <a href='http://xlxlxlxlxl.com/' target='_blank'><b>Wang Xueling</b></a> and <b>Xia Yanfeng</b>.",
+        "imagecount": "1"
+      },
+      {
+        "id":"5",
+        "title": "Gemma Cairney website",
+        "slug": "gemma-website",
+        "year": "2014",
+        "desc": "Website design and built for British radio presenter Gemma Cairney. Working with illustrator <a href='http://mariainesgul.com/'><b>Maria Ines Gul</b></a>, we try to encompass different layout and elements in the design. <a href='http://gemmacairney.co.uk' target='_blank'><b>http://gemmacairney.co.uk</b></a>",
+        "imagecount": "5"
+      },
+      {
+        "id":"6",
+        "title": "Clay Cargo",
+        "slug": "clay-cargo",
+        "year": "2014",
+        "desc": "Exhibition and catalogue design for <b>Clay Cargo 2015: Digging Depper</b>. This project is a collaboration with <a href='http://franekwardynski.com/' target='_blank'><b>Franciszek Wardynski</b></a>.",
+        "imagecount": "5"
+      },
+      {
+        "id":"7",
+        "title": "Table Lamp",
+        "slug": "table-lamp",
+        "year": "2015",
+        "desc": "The Table Lamp is an attempt to simplify the complexity of technologies to an extreme, to un-smart, make stupid, demystify and expose the everyday quality of technologies in the glow of a table lamp.",
+        "imagecount": "2"
+      },
+      {
+        "id":"8",
+        "title": "Unlimited Limited",
+        "slug": "unlimited-limited",
+        "year": "2015",
+        "desc": "Unlimited Limited is a venture communist corporation, or an austere capitalist commune. It is an experiment on the form of the business organization. Making revenue from advertisement, it then distribute its humble wealth and power equally to its shareholders, open for anyone to sign up, free of charge. <a href='http://unlimitedltd.co' target='_blank'><b>http://unlimitedltd.co</b></a>",
+        "imagecount": "2"
+      }
+    ]
   },
-  "contact": {
-    "title": "Contact",
-    "desc": "This is the contact page. Welcome"
-  },
-  "projects": [
-    {
-      "id":"1",
-      "title": "Coin Book",
-      "slug": "coin-book",
-      "year": "2012",
-      "desc": "The coin book simplifies the preocess of tossing a coin. Open this book and you will get an result immediately.",
-      "imagecount": "5"
+  "zh": {
+    "title": "贺荣凯",
+    "desc": "平面设计师贺荣凯的作品集网站。",
+
+    "about": {
+      "title": "关于",
+      "contact": "<b>贺荣凯</b><br><a href='mailto:rongkai@outlook.com'>rongkai@outlook.com</a><br>+44 (0)78 6308 9709<br><br>",
+      "desc": "贺荣凯是活跃于英国伦敦和中国长沙的平面设计师。他于2009年赴伦敦传媒学院学习本科平面设计，毕业后在英国从事两年的展览设计工作，并于2015年从英国皇家艺术学院视觉传达专业硕士毕业。除了印刷，展览和数字方面的平面设计工作，他也研究自己感兴趣的话题，进行文化创作。"
     },
-    {
-      "id":"2",
-      "title": "Hanpin",
-      "slug": "hanpin",
-      "year": "2012",
-      "desc": "Book design for photographer <b>Hao-chun Liu</b>. An old entrepreneur retired from the business he once built. While under new economic climate his successor moved the business - Hanpin from Taiwan to Mainland China. His factory in Taiwan together with his old family home, is soon to be demolished.",
-      "imagecount": "5"
+    "contact": {
+      "title": "Contact",
+      "desc": "This is the contact page. Welcome"
     },
-    {
-      "id":"3",
-      "title": "The Graphic Design Reader",
-      "slug": "tgdr",
-      "year": "2013",
-      "desc": "This is a proposal for the cover design competition held by Bloomsbury at the Royal College of Art in 2013. This design proposal celebrates the unsung heros of Graphic Design - InDesign hidden characters. <b>The Graphic Design Reader</b> is a book on the history and theory of graphic design edited by Teal Triggs and Leslie Atzmon.",
-      "imagecount": "1"
-    },
-    {
-      "id":"4",
-      "title": "Yan Fu",
-      "slug": "yan-fu",
-      "year": "2014",
-      "desc": "Exhibition and catalogue design for <b>Yan Fu, Chinese Imperial Students and the Royal Naval College</b>. This is a collaboration with <a href='http://xlxlxlxlxl.com/' target='_blank'><b>Wang Xueling</b></a> and <b>Xia Yanfeng</b>.",
-      "imagecount": "1"
-    },
-    {
-      "id":"5",
-      "title": "Gemma Cairney website",
-      "slug": "gemma-website",
-      "year": "2014",
-      "desc": "Website design and built for British radio presenter Gemma Cairney. Working with illustrator <a href='http://mariainesgul.com/'><b>Maria Ines Gul</b></a>, we try to encompass different layout and elements in the design. <a href='http://gemmacairney.co.uk' target='_blank'><b>http://gemmacairney.co.uk</b></a>",
-      "imagecount": "5"
-    },
-    {
-      "id":"6",
-      "title": "Clay Cargo",
-      "slug": "clay-cargo",
-      "year": "2014",
-      "desc": "Exhibition and catalogue design for <b>Clay Cargo 2015: Digging Depper</b>. This project is a collaboration with <a href='http://franekwardynski.com/' target='_blank'><b>Franciszek Wardynski</b></a>.",
-      "imagecount": "5"
-    },
-    {
-      "id":"7",
-      "title": "Table Lamp",
-      "slug": "table-lamp",
-      "year": "2015",
-      "desc": "The Table Lamp is an attempt to simplify the complexity of technologies to an extreme, to un-smart, make stupid, demystify and expose the everyday quality of technologies in the glow of a table lamp.",
-      "imagecount": "2"
-    },
-    {
-      "id":"8",
-      "title": "Unlimited Limited",
-      "slug": "unlimited-limited",
-      "year": "2015",
-      "desc": "Unlimited Limited is a venture communist corporation, or an austere capitalist commune. It is an experiment on the form of the business organization. Making revenue from advertisement, it then distribute its humble wealth and power equally to its shareholders, open for anyone to sign up, free of charge. <a href='http://unlimitedltd.co' target='_blank'><b>http://unlimitedltd.co</b></a>",
-      "imagecount": "1"
-    }
-  ]
+    "projects": [
+      {
+        "id":"1",
+        "title": "硬币书",
+        "slug": "coin-book",
+        "year": "2012",
+        "desc": "抛硬币很难？硬币书的面世，让人人都能使用抛硬币这门实用技术，解决艰难的的二选一问题。这本书每一页都是硬币的一面，只要翻开这本书，就能立即得到一个答案。",
+        "imagecount": "5"
+      },
+      {
+        "id":"2",
+        "title": "汉平",
+        "slug": "hanpin",
+        "year": "2012",
+        "desc": "2012年，荣凯同摄影师刘浩俊合作，设计，编辑和制作了刘浩俊的摄影书「汉平」。本书讲述了一个台湾老企业家功成身退的故事。一手造就了家族企业“汉平电子”之后，老爷爷退休了。然而在新的经济气候下，他的继承人为了企业的生存，决定将工厂移到大陆。而在台湾的旧厂址，同时也是老爷爷多年的家，则遭到了拆除的命运。这本册子记录了汉平旧址拆除前的一些点滴。",
+        "imagecount": "5"
+      },
+      {
+        "id":"3",
+        "title": "平面设计读者",
+        "slug": "tgdr",
+        "year": "2013",
+        "desc": "「平面设计读者」是一本由 Bloomsbury 出版社出版，关于平面设计历史和理论的读物，由 Teal Triggs 和 Leslie Atzmon 编写。这个封面设计稿是为这本书封面的提案，歌颂平面设计的无名英雄：隐藏排版字符。",
+        "imagecount": "1"
+      },
+      {
+        "id":"4",
+        "title": "严复展览和书籍设计",
+        "slug": "yan-fu",
+        "year": "2014",
+        "desc": "为在旧皇家海军学院展览的 <b>严复：帝国留学生与皇家海军学院</b> 图文展做的展板和书籍设计。本项目同 <a href='http://xlxlxlxlxl.com/' target='_blank'><b>王雪羚</b></a> 和 <b>夏岩枫</b> 合作设计。",
+        "imagecount": "1"
+      },
+      {
+        "id":"5",
+        "title": "Gemma Cairney 个人网站",
+        "slug": "gemma-website",
+        "year": "2014",
+        "desc": "这是为英国广播和电视主持人 <a href='http://gemmacairney.co.uk' target='_blank'><b>Gemma Cairney</b></a> 设计的个人网站。这个项目是和插画师 <a href='http://mariainesgul.com/'><b>Maria Ines Gul</b></a> 合作的。我们的想法是用多彩的插画和多变的版式来塑造 Gemma 活泼的形象。",
+        "imagecount": "5"
+      },
+      {
+        "id":"6",
+        "title": "Clay Cargo",
+        "slug": "clay-cargo",
+        "year": "2014",
+        "desc": "<b>Clay Cargo 2015: Digging Depper</b> 活动展板和册子的平面设计。本项目与波兰小哥 <a href='http://franekwardynski.com/' target='_blank'><b>Franciszek Wardynski</b></a> 合作完成。",
+        "imagecount": "5"
+      },
+      {
+        "id":"7",
+        "title": "桌灯",
+        "slug": "table-lamp",
+        "year": "2015",
+        "desc": "桌灯探讨的是复杂科技的日常内涵，是对当下“智能科技”的一个反思。它到底是笨呢，还是聪明呢？",
+        "imagecount": "2"
+      },
+      {
+        "id":"8",
+        "title": "无限有限",
+        "slug": "unlimited-limited",
+        "year": "2015",
+        "desc": "<a href='http://unlimitedltd.co' target='_blank'><b>无限有限</b></a> 是一个投机共产主义公司，或者是个简朴的资本家社区。它是对商业机构的形式的一次探索。它先从广告获得收入，然后将它有限的财产和权力平均分配给它的持股人。任何人都可以免费得到它的一份股份。",
+        "imagecount": "2"
+      }
+    ]
+  }
 }
